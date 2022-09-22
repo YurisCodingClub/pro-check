@@ -78,9 +78,21 @@ git add filename
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Name of issue"
+git commit -m "Commit Message"
 ```
 
+### Commit message
+
+There are different ways of writing a commit message. For more reference checkout the 
+artcile about [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21).
+
+For this project we are going to use following style:
+
+**type-of-issue - number-of-issue - action you took**
+
+Practical example:
+
+`feature-11[Fix typo in README.md]`
 
 ## Push changes to GitHub
 
