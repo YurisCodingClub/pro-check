@@ -1,8 +1,10 @@
 ![Open Source Love](https://img.shields.io/badge/open%20soure-%F0%9F%92%9F-blueviolet?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-# 
+
+#
 
 # About ProCheck
+
 ProCheck is an interactive checklist for your projects showcased in your portfolio. With ProCheck users can make sure to not forget necessary changes and improvements to make their projects stand out.
 
 # How to contribute
@@ -11,7 +13,7 @@ This project aims to be a beginner friendly way to your first contribution to op
 
 <img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1SbliQ66gfCx0uiwcG_04FAPXNMPHVE7s" alt="fork this repository" />
 
-#### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
+**If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).**
 
 ## Fork this repository
 
@@ -64,7 +66,6 @@ git checkout -b name-of-issue
 
 ## Make necessary changes and commit those changes
 
-
 <img align="right" width="450" src="" alt="git status" />
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
@@ -83,8 +84,8 @@ git commit -m "Commit Message"
 
 ### Commit message
 
-There are different ways of writing a commit message. For more reference checkout the 
-artcile about [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21).
+There are different ways of writing a commit message. For more reference checkout the
+article about [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21).
 
 For this project we are going to use following style:
 
