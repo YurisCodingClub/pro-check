@@ -3,9 +3,9 @@
 # 
 
 # About ProCheck
-Checklist for you projects showcased in your portfolio
+ProCheck is an interactive checklist for your projects showcased in your portfolio. With ProCheck users can make sure to not forget necessary changes and improvements to make their projects stand out.
 
-## How to contribute
+# How to contribute
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below.
 
