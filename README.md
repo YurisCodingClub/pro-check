@@ -7,7 +7,7 @@
 
 ProCheck is an interactive checklist for your projects showcased in your portfolio. With ProCheck users can make sure to not forget necessary changes and improvements to make their projects stand out.
 
-# How to contribute
+## How to contribute
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below.
 
@@ -15,12 +15,12 @@ This project aims to be a beginner friendly way to your first contribution to op
 
 **If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).**
 
-## Fork this repository
+### Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
-## Clone the repository
+### Clone the repository
 
 <img align="right" width="300" src="https://docs.google.com/uc?export=download&id=10xHPRthNMKP8vi_mS8KjklhlLIhVlp6g" alt="clone this repository" />
 
@@ -44,7 +44,7 @@ git clone https://github.com/this-is-you/procheck.git
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the procheck repository on GitHub to your computer.
 
-## Create a branch
+### Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
@@ -64,7 +64,7 @@ For example:
 git checkout -b name-of-issue
 ```
 
-## Make necessary changes and commit those changes
+### Make necessary changes and commit those changes
 
 <img align="right" width="450" src="https://docs.google.com/uc?export=download&id=16K70wMG4sZk2MzqwkAowkX06EpI4dMKZ" alt="git status" />
 
@@ -82,7 +82,7 @@ Now commit those changes using the `git commit` command:
 git commit -m "Commit Message"
 ```
 
-### Commit message
+#### Commit message
 
 There are different ways of writing a commit message. For more reference checkout the
 article about [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21).
@@ -95,7 +95,7 @@ Practical example:
 
 `feature-11[Fix typo in README.md]`
 
-## Push changes to GitHub
+### Push changes to GitHub
 
 Push your changes using the command `git push`:
 
@@ -105,7 +105,7 @@ git push origin -u <add-your-branch-name>
 
 replacing `<add-your-branch-name>` with the name of the branch you created earlier.
 
-## Submit your changes for review
+### Submit your changes for review
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
