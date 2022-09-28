@@ -7,13 +7,20 @@
 
 ProCheck is an interactive checklist for your projects showcased in your portfolio. With ProCheck users can make sure to not forget necessary changes and improvements to make their projects stand out.
 
+I've been asked any times when I started looking for a job, when I thought I was "ready". Checking each of this checkboxes was a great way to make sure I was ready to apply for a job.
+
+Read more about <a href="https://dev.to/yuridevat/am-i-ready-to-apply-for-jobs-1k9l">Am I Ready To Apply For Jobs.</a>
+
 ## How to contribute
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below.
 
 <img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1SbliQ66gfCx0uiwcG_04FAPXNMPHVE7s" alt="fork this repository" />
 
-**If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).**
+### Prerequisites
+
+If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
+If you don't have node on your machine, [install it](https://nodejs.org/en/download/).
 
 ### Fork this repository
 
@@ -39,17 +46,35 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 For example:
 
 ```
-git clone https://github.com/this-is-you/procheck.git
+git clone https://github.com/this-is-you/pro-check.git
 ```
 
-where `this-is-you` is your GitHub username. Here you're copying the contents of the procheck repository on GitHub to your computer.
+where `this-is-you` is your GitHub username. Here you're copying the contents of the pro-check repository on GitHub to your computer.
 
 ### Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd procheck
+cd pro-check
+```
+
+Open the project in Visual Studio Code (or your favorite code editor):
+
+```
+code .
+```
+
+Install the dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm start
 ```
 
 Now create a branch using the `git checkout -b` command:
