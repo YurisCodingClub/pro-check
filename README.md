@@ -11,6 +11,8 @@ I've been asked any times when I started looking for a job, when I thought I was
 
 Read more about <a href="https://dev.to/yuridevat/am-i-ready-to-apply-for-jobs-1k9l">Am I Ready To Apply For Jobs.</a>
 
+**Note:** Merge reviews are done every Saturday. 😇
+
 ## Design of the app
 
 Please go to the <a href="https://github.com/YurisCodingClub/pro-check/discussions/8">discussions section of the project</a> where I opened a discussion about the app's design and work together on a great design for the app.
