@@ -2,7 +2,11 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header style={{'position':'fixed'}}>Header</header>
+        <header className='header'>
+            <div className='logo'>
+                <img src='./logo.jpg' alt='logo'/>
+            </div>
+        </header>
     )
 }
 

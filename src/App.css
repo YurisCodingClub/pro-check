@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+.logo{
+  display: inherit;
+  max-height: inherit;
+  margin: 1rem;
+}
