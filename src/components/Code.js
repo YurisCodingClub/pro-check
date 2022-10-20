@@ -52,7 +52,7 @@ const Code = () => {
   return (  
     <Fragment>
       <h1 style={{'textAlign': 'center'}}> 
-        Project Checklist 
+        Code and Live View
       </h1>
 
       <form action="">
