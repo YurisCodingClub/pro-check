@@ -11,7 +11,7 @@ const Code = () => {
     const savedTasks = JSON.parse(localStorage.getItem('tasks'));
 
     if (savedTasks === null || savedTasks.length === 0) {
-      localStorage.setItem('tasks', JSON.stringify([{done: false, item: 'Create React App'}]));
+      localStorage.setItem('tasks', JSON.stringify([{done: check, item: 'Create React App'}]));
     }
 
     else {
@@ -75,7 +75,7 @@ const Code = () => {
             <input 
               type="checkbox" 
               checked={task.done}
-              onChange={(task) => {console.log("Value change!")}}
+              onChange={() => {console.log("Value change!")}}
              />
             {task.item}
           </label>
