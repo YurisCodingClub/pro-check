@@ -1,12 +1,6 @@
 .App {
-  width: 80%;
+  width: 90%;
   margin: 0px auto;
-}
-
-@media screen and (min-width: 1024px) {
-  .App {
-    width: fit-content;
-  }
 }
 
 .App-logo {
