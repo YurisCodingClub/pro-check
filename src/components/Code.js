@@ -43,7 +43,6 @@ const Code = () => {
     }
   }
 
-
   return (  
     <Fragment>
       <h1> Code and Live View </h1>
