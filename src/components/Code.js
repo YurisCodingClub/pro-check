@@ -1,8 +1,10 @@
 import { Fragment,useEffect, useState } from "react"
 import { myTasks } from "../assets/constants";
 
+
 const Code = () => {
-  const [check, setCheck] = useState('false');
+  const [check, setCheck] = useState(false);
+  const[task, setTask] = useState({});
   const [checkList, setCheckList] = useState([]);
 
 
@@ -49,6 +51,24 @@ const Code = () => {
     fetchList();
   }
 
+  //Function to check/uncheck items 
+  function checkItem(task) {
+    if (task.done === true) {
+      setCheck(task.done = false)
+      const changedTask = checkList.find(obj => obj.item === task.item);
+      Object.assign(changedTask, task);
+      localStorage.setItem('tasks', JSON.stringify(checkList));
+    }
+
+    else {
+      setCheck(task.done = true)
+      const changedTask = checkList.find(obj => obj.item === task.item);
+      Object.assign(changedTask, task);
+      localStorage.setItem('tasks', JSON.stringify(checkList))
+    }
+  }
+
+  <form action="">
         <input 
           type="text" 
           placeholder="Insert Task..." 
