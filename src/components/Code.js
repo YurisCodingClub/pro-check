@@ -49,11 +49,11 @@ const Code = () => {
       <hr />
       <div style={{'marginTop': '20px'}}>
         {checkList.map((item, index) => (
-          <label key={index}>
-            <input 
+          <label key={index} onClick={() => checkItem(item)}>
+            <input
               type="checkbox" 
-              checked={item.checked === 'false' ? false : true} 
-              onChange={() => checkItem(item)}
+              //checked={item.checked === 'false' ? false : true} 
+              defaultChecked={item.checked === 'false' ? false : true}
             />
             <div style={{'display': 'inline'}}  dangerouslySetInnerHTML={{__html: item.task}}></div>
           </label>
