@@ -52,8 +52,7 @@ const Code = () => {
           <label key={index} onClick={() => checkItem(item)}>
             <input
               type="checkbox" 
-              //checked={item.checked === 'false' ? false : true} 
-              defaultChecked={item.checked === 'false' ? false : true}
+              defaultChecked={item.checked} 
             />
             <div style={{'display': 'inline'}}  dangerouslySetInnerHTML={{__html: item.task}}></div>
           </label>
