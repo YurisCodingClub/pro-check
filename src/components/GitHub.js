@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 
 const GitHub = () => {
@@ -10,17 +11,17 @@ const GitHub = () => {
         {
             id: 2,
             checked: false,
-            item: "The repository has a link to the live view in the about section",
+            item: "The repository has a link to the live view in the <strong>about section</strong>",
         },
         {
             id: 3,
             checked: false,
-            item: "The repository has a short introduction in the <strong> about section",
+            item: "The repository has a short introduction in the <strong>about section</strong> ",
         },
         {
             id: 4,
             checked: false,
-            item: "The repository has tags in the about section",
+            item: "The repository has tags in the <strong>about section</strong>",
         },
         {
             id: 5,
@@ -30,12 +31,12 @@ const GitHub = () => {
         {
             id: 6,
             checked: false,
-            item: "A thumbnail is added to the social preview in GitHub settings",
+            item: "A thumbnail is added to the social preview in <strong>GitHub settings</strong>",
         },
         {
             id: 7,
             checked: false,
-            item: "The repository is visible",
+            item: "The repository is <strong>visible</strong>",
         },
         {
             id: 8,
@@ -93,7 +94,10 @@ const GitHub = () => {
                             onChange={() => handleCheck(item.id)}
                             checked={item.checked}
                         />
-                        <label style={{ display: "inline" }}>{item.item}</label>
+                        <label
+                            style={{ display: "inline" }}
+                            dangerouslySetInnerHTML={{ __html: item.item }}
+                        ></label>
                     </li>
                 ))}
             </ul>
