@@ -37,8 +37,8 @@ const Code = () => {
     }
 
     return (
-        <Fragment>
-            <h1 style={{ marginTop: "100px" }}> Code and Live View </h1>
+        <div style={{ padding: "80px 30px 20px" }}>
+            <h1> Code and Live View </h1>
             <hr />
             <div style={{ marginTop: "20px" }}>
                 {checkList.map((item, index) => (
@@ -51,7 +51,7 @@ const Code = () => {
                     </label>
                 ))}
             </div>
-        </Fragment>
+        </div>
     );
 };
 
