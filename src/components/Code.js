@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { myTasks } from "../assets/constants";
 
 const Code = () => {
