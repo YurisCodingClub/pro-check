@@ -10,12 +10,12 @@ const GitHub = () => {
         {
             id: 2,
             checked: false,
-            item: "The repo has a link to the live view in the about section",
+            item: "The repository has a link to the live view in the about section",
         },
         {
             id: 3,
             checked: false,
-            item: "The repo has a short introduction in the <strong> about section",
+            item: "The repository has a short introduction in the <strong> about section",
         },
         {
             id: 4,
@@ -35,7 +35,7 @@ const GitHub = () => {
         {
             id: 7,
             checked: false,
-            item: "The repo is visible",
+            item: "The repository is visible",
         },
         {
             id: 8,
