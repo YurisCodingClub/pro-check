@@ -1,16 +1,17 @@
 import Header from "./components/Header";
-import Code from "./components/Code";
-import GitHub from "./components/GitHub";
-import "./App.css";
+import CodeTasks from "./components/CodeTasks";
+import GitHubTasks from "./components/GitHubTasks";
 
 function App() {
-    return (
-        <div className="App">
-            <Header />
-            <Code />
-            <GitHub />
-        </div>
-    );
+  return (
+    <>
+      <Header />
+      <main>
+        <CodeTasks />
+        <GitHubTasks />
+      </main>
+    </>
+  );
 }
 
 export default App;
