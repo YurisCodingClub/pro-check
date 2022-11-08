@@ -8,6 +8,8 @@
 
 <!-- If you write "closes" followed by the Github issue number, it will automatically close the issue for you when the PR merges -->
 
+Closes #
+
 ## Acceptance Criteria
 
 <!-- Include AC from the Github issue -->
@@ -36,6 +38,14 @@
 
 <!-- If UI feature, take provide screenshots -->
 <!-- Provide links to documentation for further reading if needed -->
+
+## Checklist before requesting a review
+
+- [ ] I have performed a self-review of my code.
+- [ ] Followed the repository's [Contributing Guidelines](/CONTRIBUTING.md).
+- [ ] I ran the app and tested it locally to verify that it works as expected.
+- [ ] I have checked my code with an automatic accessibility tool such as Axe Dev Tools or Wave
+      and it shows no errors.
 
 ## Testing Steps / QA Criteria
 
