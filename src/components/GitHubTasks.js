@@ -1,17 +1,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from "react";
-import { githubTasks } from "../utils/data";
+import { useState, useEffect } from 'react';
+import { githubTasks } from '../utils/data';
 
 const GitHubTasks = () => {
   const [tasks, setTasks] = useState([]);
 
   const fetchTasks = () => {
     const githubTasksStored = JSON.parse(
-      localStorage.getItem("githubTasksStored")
+      localStorage.getItem('githubTasksStored')
     );
 
     if (githubTasksStored === null || githubTasksStored.length === 0) {
-      localStorage.setItem("githubTasksStored", JSON.stringify(githubTasks));
+      localStorage.setItem('githubTasksStored', JSON.stringify(githubTasks));
     } else {
       setTasks(githubTasksStored);
     }
@@ -26,7 +26,7 @@ const GitHubTasks = () => {
       task.id === id ? { ...task, checked: !task.checked } : task
     );
     setTasks(listTasks);
-    localStorage.setItem("githubTasksStored", JSON.stringify(listTasks));
+    localStorage.setItem('githubTasksStored', JSON.stringify(listTasks));
   };
 
   return (
@@ -35,7 +35,9 @@ const GitHubTasks = () => {
       <hr />
       <ul>
         {tasks.map((task) => (
-          <li className="item" key={task.id}>
+          <li
+            className="item"
+            key={task.id}>
             <label>
               <input
                 type="checkbox"

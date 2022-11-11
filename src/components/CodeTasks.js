@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
-import { codeTasks } from "../utils/data";
+import { useEffect, useState } from 'react';
+import { codeTasks } from '../utils/data';
 
 const CodeTasks = () => {
   const [tasks, setTasks] = useState([]);
 
   const fetchTasks = () => {
-    const codeTasksStored = JSON.parse(localStorage.getItem("codeTasksStored"));
+    const codeTasksStored = JSON.parse(localStorage.getItem('codeTasksStored'));
 
     if (codeTasksStored === null || codeTasksStored.length === 0) {
-      localStorage.setItem("codeTasksStored", JSON.stringify(codeTasks));
+      localStorage.setItem('codeTasksStored', JSON.stringify(codeTasks));
     } else {
       setTasks(codeTasksStored);
     }
@@ -23,7 +23,7 @@ const CodeTasks = () => {
       task.id === id ? { ...task, checked: !task.checked } : task
     );
     setTasks(listTasks);
-    localStorage.setItem("codeTasksStored", JSON.stringify(listTasks));
+    localStorage.setItem('codeTasksStored', JSON.stringify(listTasks));
   };
 
   return (
@@ -32,7 +32,9 @@ const CodeTasks = () => {
       <hr />
       <ul>
         {tasks.map((task) => (
-          <li className="task" key={task.id}>
+          <li
+            className="task"
+            key={task.id}>
             <label>
               <input
                 type="checkbox"
